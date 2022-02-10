@@ -18,7 +18,10 @@ namespace TestAppImplementation
             await MqttTestSender.SendTestMessage("DBRSS", "1", "1", "Int");
             await MqttTestSender.SendTestMessage("DBRSS", "1", "1", "Int");
 
-            Console.WriteLine(dbrss.ReadBufferPacket());
+            var sendPayload = dbrss.ReadBufferPacket();
+            Console.WriteLine(sendPayload.Hash);
+            dbrss.AcknowledgeBufferPacket(sendPayload.Package[0].Id);
+
             Console.ReadKey(false);
         }
     }

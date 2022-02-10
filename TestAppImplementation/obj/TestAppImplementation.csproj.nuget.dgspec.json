@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj": {}
+    "C:\\Users\\mobil\\RiderProjects\\DBRSS\\TestAppImplementation\\TestAppImplementation.csproj": {}
   },
   "projects": {
-    "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj": {
+    "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\DBRSS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj",
+        "projectUniqueName": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\DBRSS.csproj",
         "projectName": "DBRSS",
-        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj",
-        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
-        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/",
+        "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\DBRSS.csproj",
+        "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -102,26 +104,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj": {
+    "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
+        "projectUniqueName": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj",
         "projectName": "MqttTestClient",
-        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
-        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
-        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/",
+        "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj",
+        "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,37 +164,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj": {
+    "C:\\Users\\mobil\\RiderProjects\\DBRSS\\TestAppImplementation\\TestAppImplementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj",
+        "projectUniqueName": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\TestAppImplementation\\TestAppImplementation.csproj",
         "projectName": "TestAppImplementation",
-        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj",
-        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
-        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/obj/",
+        "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\TestAppImplementation\\TestAppImplementation.csproj",
+        "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\TestAppImplementation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj": {
-                "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj"
+              "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\DBRSS.csproj": {
+                "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\DBRSS\\DBRSS.csproj"
               },
-              "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj": {
-                "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj"
+              "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj": {
+                "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj"
               }
             }
           }
@@ -219,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,3 +10,15 @@
 /Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.dll
 /Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/ref/MqttTestClient.dll
 /Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.pdb
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\bin\Debug\net6.0\MqttTestClient.deps.json
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\bin\Debug\net6.0\MqttTestClient.dll
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\bin\Debug\net6.0\ref\MqttTestClient.dll
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\bin\Debug\net6.0\MqttTestClient.pdb
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.csproj.AssemblyReference.cache
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.AssemblyInfoInputs.cache
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.AssemblyInfo.cs
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.csproj.CoreCompileInputs.cache
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.dll
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\ref\MqttTestClient.dll
+C:\Users\mobil\RiderProjects\DBRSS\MqttTestClient\obj\Debug\net6.0\MqttTestClient.pdb

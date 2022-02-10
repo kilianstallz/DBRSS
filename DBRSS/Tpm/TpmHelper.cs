@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using System.Text;
 using DBRSS.Events;
 using Microsoft.Azure.Devices.Provisioning.Security;
@@ -15,11 +16,9 @@ public static class TpmHelper {
   }
 
   public static string HashString(string payload) {
-    Tpm2Device tpm2Device = new TbsDevice();
-    tpm2Device.Connect();
-    var security = new SecurityProviderTpmHsm(null);
-    var tpm = new Tpm2(tpm2Device);
-    byte[] hash = tpm.Hash(Encoding.ASCII.GetBytes(payload), TpmAlgId.Sha256, TpmHandle.RhOwner, out TkHashcheck validation);
+    var sha = new SHA256Managed();
+    byte[] text = Encoding.UTF8.GetBytes(payload);
+    byte[] hash = sha.ComputeHash(text);
     return BitConverter.ToString(hash).Replace("-", "");
   }
 }

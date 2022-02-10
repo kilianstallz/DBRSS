@@ -63,16 +63,16 @@ public class BufferService : IBufferService {
   }
   
   // GetFirstBufferEntry - returns the packet in the sendingBuffer
-  public BufferSendPackage GetFirstBufferPacket() {
-    // Find element with the lowest id
-    var lowestId = _senderBuffer.Min(x => x.Id);
+  public BufferSendPackage? GetFirstBufferPacket() {
+    // Find element with the lowest id in the array
+    var lowestId = _senderBuffer.First().Id;
     // get all elements with the lowest id
     var package = _senderBuffer.Where(x => x.Id == lowestId).ToArray();
-
+    
     var hashPayload = new HashPayload(TpmHelper.GetPublicEk(), package);
 
     var hash = this.HashPackage(hashPayload);
-
+    
     return new BufferSendPackage {
       Hash = hash,
       Package = package,
@@ -81,6 +81,7 @@ public class BufferService : IBufferService {
 
   // AcknowledgeBufferEntry - removes an acknowledged packet from the sendingBuffer
   public void AcknowledgeBufferPacket(long packetId) {
+    Console.WriteLine("Acknowledge packet id " + packetId);
     var toRemove = _senderBuffer.Where(x => x.Id == packetId).ToArray();
     foreach (var item in toRemove) {
       _senderBuffer.Remove(item);

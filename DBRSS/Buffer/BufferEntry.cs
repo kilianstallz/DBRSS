@@ -13,8 +13,8 @@ public class SenderBufferEntry {
 }
 
 public class HashPayload {
-  public string Ek { get; init; }
-  public SenderBufferEntry[] Package { get; init; }
+  public string Ek { get; set; }
+  public SenderBufferEntry[] Package { get; set; }
 
   public HashPayload(string ek, SenderBufferEntry[] package) {
     this.Ek = ek;

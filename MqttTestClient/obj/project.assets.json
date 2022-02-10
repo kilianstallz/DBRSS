@@ -44,24 +44,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/kilianstallinger/.nuget/packages/": {}
+    "C:\\Users\\mobil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
+      "projectUniqueName": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj",
       "projectName": "MqttTestClient",
-      "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
-      "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
-      "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/",
+      "projectPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\MqttTestClient.csproj",
+      "packagesPath": "C:\\Users\\mobil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mobil\\RiderProjects\\DBRSS\\MqttTestClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mobil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -100,7 +102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
