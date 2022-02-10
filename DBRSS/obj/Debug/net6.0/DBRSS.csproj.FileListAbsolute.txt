@@ -1,0 +1,16 @@
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/DBRSS.deps.json
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/DBRSS.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/ref/DBRSS.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/DBRSS.pdb
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.csproj.AssemblyReference.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.AssemblyInfoInputs.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.AssemblyInfo.cs
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.csproj.CoreCompileInputs.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/ref/DBRSS.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.pdb
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/Debug/net6.0/DBRSS.csproj.CopyComplete
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/System.Reactive.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/System.Reactive.xml
+/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/bin/Debug/net6.0/appsettings.json

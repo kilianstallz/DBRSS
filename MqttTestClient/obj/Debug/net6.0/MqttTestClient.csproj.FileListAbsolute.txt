@@ -1,0 +1,12 @@
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/bin/Debug/net6.0/MqttTestClient.deps.json
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/bin/Debug/net6.0/MqttTestClient.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/bin/Debug/net6.0/ref/MqttTestClient.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/bin/Debug/net6.0/MqttTestClient.pdb
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.csproj.AssemblyReference.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.AssemblyInfoInputs.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.AssemblyInfo.cs
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.csproj.CoreCompileInputs.cache
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/ref/MqttTestClient.dll
+/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/Debug/net6.0/MqttTestClient.pdb

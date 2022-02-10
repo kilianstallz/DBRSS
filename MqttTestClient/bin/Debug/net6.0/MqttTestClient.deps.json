@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MqttTestClient/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "4.0.0-preview4"
+        },
+        "runtime": {
+          "MqttTestClient.dll": {}
+        }
+      },
+      "MQTTnet/4.0.0-preview4": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MqttTestClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQTTnet/4.0.0-preview4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmyEo/bA6nXol9yxIDHi4qAzTH3+f60B/0yt5iQfUAHmWpnR9V1d4ovLe/z/lB8/S117Bb/FMOg7SSB7Rh5ARg==",
+      "path": "mqttnet/4.0.0-preview4",
+      "hashPath": "mqttnet.4.0.0-preview4.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj": {}
+  },
+  "projects": {
+    "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj",
+        "projectName": "DBRSS",
+        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj",
+        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
+        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.0.0-preview4, )"
+            },
+            "Microsoft.Azure.Devices.Provisioning.Security.Tpm": {
+              "target": "Package",
+              "version": "[1.14.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Microsoft.TSS": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NCuid": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "PubSub": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Websocket.Client": {
+              "target": "Package",
+              "version": "[4.4.43, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
+        "projectName": "MqttTestClient",
+        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
+        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
+        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.0.0-preview4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj",
+        "projectName": "TestAppImplementation",
+        "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/TestAppImplementation.csproj",
+        "packagesPath": "/Users/kilianstallinger/.nuget/packages/",
+        "outputPath": "/Users/kilianstallinger/RiderProjects/DBRSS/TestAppImplementation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kilianstallinger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj": {
+                "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/DBRSS/DBRSS.csproj"
+              },
+              "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj": {
+                "projectPath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

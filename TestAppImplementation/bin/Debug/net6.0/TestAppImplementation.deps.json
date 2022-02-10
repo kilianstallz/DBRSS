@@ -1,0 +1,773 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestAppImplementation/1.0.0": {
+        "dependencies": {
+          "DBRSS": "1.0.0",
+          "MqttTestClient": "1.0.0",
+          "System.Reactive.Reference": "4.3.0.0"
+        },
+        "runtime": {
+          "TestAppImplementation.dll": {}
+        }
+      },
+      "Microsoft.Azure.Devices.Provisioning.Security.Tpm/1.14.1": {
+        "dependencies": {
+          "Microsoft.Azure.Devices.Shared": "1.30.1",
+          "Microsoft.TSS": "2.1.1"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Azure.Devices.Provisioning.Security.Tpm.dll": {
+            "assemblyVersion": "1.14.1.0",
+            "fileVersion": "1.14.1.0"
+          }
+        }
+      },
+      "Microsoft.Azure.Devices.Shared/1.30.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Azure.Devices.Shared.dll": {
+            "assemblyVersion": "1.30.1.0",
+            "fileVersion": "1.30.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.FileProviders.Physical": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "System.Text.Json": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22054.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.FileSystemGlobbing": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/6.0.2-mauipre.1.22054.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22054.8",
+          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22054.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "Microsoft.TSS/2.1.1": {
+        "runtime": {
+          "lib/netcoreapp2.0/TSS.Net.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/lib/netcoreapp2.0/TSS.Net.dll": {
+            "rid": "linux-arm",
+            "assetType": "runtime",
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          },
+          "runtimes/linux-musl-x64/lib/netcoreapp2.1/TSS.Net.dll": {
+            "rid": "linux-musl-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          },
+          "runtimes/linux-x64/lib/netcoreapp2.0/TSS.Net.dll": {
+            "rid": "linux-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "MQTTnet/4.0.0-preview4": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "NCuid/1.0.0": {
+        "runtime": {
+          "lib/net40/NCuid.dll": {
+            "assemblyVersion": "1.0.0.23490",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "PubSub/4.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/PubSub.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "sqlite-net-pcl/1.8.116": {
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "assemblyVersion": "1.8.116.0",
+            "fileVersion": "1.8.116.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          },
+          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "rid": "alpine-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "rid": "linux-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "rid": "linux-mips64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Reactive/4.3.2": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22054.8": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "System.Text.Json/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8",
+          "System.Text.Encodings.Web": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
+      "System.Threading.Channels/4.7.0": {},
+      "Websocket.Client/4.4.43": {
+        "dependencies": {
+          "System.Reactive": "4.3.2",
+          "System.Threading.Channels": "4.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/Websocket.Client.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "DBRSS/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "4.0.0-preview4",
+          "Microsoft.Azure.Devices.Provisioning.Security.Tpm": "1.14.1",
+          "Microsoft.Extensions.Configuration": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Configuration.Json": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.TSS": "2.1.1",
+          "NCuid": "1.0.0",
+          "PubSub": "4.0.2",
+          "Websocket.Client": "4.4.43",
+          "sqlite-net-pcl": "1.8.116"
+        },
+        "runtime": {
+          "DBRSS.dll": {}
+        }
+      },
+      "MqttTestClient/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "4.0.0-preview4"
+        },
+        "runtime": {
+          "MqttTestClient.dll": {}
+        }
+      },
+      "System.Reactive.Reference/4.3.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.2.55399"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestAppImplementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.Devices.Provisioning.Security.Tpm/1.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JXioZm89NMlcJ7QsIxhbu8y/bTnXs3nqUm0efVEXDTnRPwr0GAMdkmSZcpWRKsqDohCxR1qsm47fYMZ/0Ay0QA==",
+      "path": "microsoft.azure.devices.provisioning.security.tpm/1.14.1",
+      "hashPath": "microsoft.azure.devices.provisioning.security.tpm.1.14.1.nupkg.sha512"
+    },
+    "Microsoft.Azure.Devices.Shared/1.30.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-au1oX87VDv+zqoB/j+X/G6cKVVoKadVegDm+kGIirwvZtNWea0XSR2w5tYNypUsfs3XiSANgdfVyQssufKc6JA==",
+      "path": "microsoft.azure.devices.shared/1.30.1",
+      "hashPath": "microsoft.azure.devices.shared.1.30.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r31wRMI9ceMihv6FAQ0LPl7JI8JvoOnPjhu2kB2/jBekfF7Yxl7zd4dvaCoXJVwtRQujEyoh2my4OtviBmbGGg==",
+      "path": "microsoft.extensions.configuration/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pkCZm4uUT46AOct3trvxYkh/L7wKsnFZZXsJXlM36rf6CHboXeENanOBN7chxDUKvA2a8Ejx9ojOE7FPHmoi4A==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SpipikruG3PE6sk5xn/fh54o2cuMkWlQbHhoixG424/kyPLdsgjN1sRm6Vmo5E+MRckR9+k+2gysGj+aLu0Bwg==",
+      "path": "microsoft.extensions.configuration.binder/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CiEny664+9WztL3QHQ3ZR3sL9Qyl3BdMoBK4f/uCM/KagoZpOPsE7PGMM9k7n2bx/RzwgBlmjgLdltRDtKeDyA==",
+      "path": "microsoft.extensions.configuration.environmentvariables/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.environmentvariables.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-egKcPtcph4hvZC+Oe/G1gwDd9t/vp0VqvZsvj0RlnaemXkFpEfHQ0cCwKe1YUmhIn+1CAzwB7qxIgjMF++jb5w==",
+      "path": "microsoft.extensions.configuration.fileextensions/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hTaVkqHfCqfnMCHF4gj6wyzcnUAs9TgGYqITjxDQYGonlC3Li2vd+Iaw6CsDHTd7PErHtUotbfJhF1UxEUcTg==",
+      "path": "microsoft.extensions.configuration.json/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.configuration.json.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mq9h3HkBMSl1h3wWKvMkU/yuYvn0gaf15Fslvp2g87qRzgJLjTb4ItczX6TZOa9M7IcBNoBNgbKY2EdGZyj4TQ==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8XFtUtvSvsxB/mwebHvO+mrH3Iuk0w/rHu+7juHTfsYv9mtZkS3U3NY8zP25czF6L41HlbrfWeF/u4npFByq1w==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwMOEGD9lCeyz9MsgATALIgMDd2qzonGdbdYZBl/ItgyvpfoibSLi/HmRDE4w/AGCb8BMJRhlTdwYzpoCmJTpw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tSOpKQmC1RyXYZV3q2NJxYVV6D3EV8MNX9VQaoi2xpcfiQZ9st6QWQby0XM9Ivrsw69ZC8tmiTPYB8LrqC6Ww==",
+      "path": "microsoft.extensions.fileproviders.physical/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.fileproviders.physical.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BbWIisgkZn8oucvygfCHhViAlmPZJ1HXgZt5q6uqu0Yz1shi9o7jNa5NtFEzzx+iomx6hTk1j/jpHH7KW+5qXA==",
+      "path": "microsoft.extensions.filesystemglobbing/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.filesystemglobbing.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LHT1ID+gGHTteXK8ytbjxSjgaQJEb7jFxgxxAvZyHK6OiOeAGd8twSoTOCmfmc5oQ2EzfSS0OE0RusvdIW7blg==",
+      "path": "microsoft.extensions.logging/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.logging.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dWsLeAdq7w4CSpxmee2/Czukxx9zJ+TK5D+nBF0/DEtqOE42NjQGVbJ+UUt0aFCxfJpxv4dt6mCDqIuE5hre5A==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5OhJf4x+tu37UzJkv0Fu1wJoE5W3UsW8DSoNeSfo73W3KiI8KymIitOr/r/RN1AK0y69sD01l9u5kwqQm2T/og==",
+      "path": "microsoft.extensions.options/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.options.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lVtYpBd21BXlclaAX6rMoJIbjojo069vlqhKHxhQs9tVeHnHB7sVj91LchF9xAG0xDbUsFujy8xqOTELYuXm5w==",
+      "path": "microsoft.extensions.primitives/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.primitives.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.TSS/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-87DBN+4ANSFO8TDRmFjjTBl6PL7tmrfofmxki4LUnE34gOdyQiBfJK/X1QSu0UfCGUtpoBVv/tD985s4FDpKiA==",
+      "path": "microsoft.tss/2.1.1",
+      "hashPath": "microsoft.tss.2.1.1.nupkg.sha512"
+    },
+    "MQTTnet/4.0.0-preview4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmyEo/bA6nXol9yxIDHi4qAzTH3+f60B/0yt5iQfUAHmWpnR9V1d4ovLe/z/lB8/S117Bb/FMOg7SSB7Rh5ARg==",
+      "path": "mqttnet/4.0.0-preview4",
+      "hashPath": "mqttnet.4.0.0-preview4.nupkg.sha512"
+    },
+    "NCuid/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8GZ4Hcreo2LkGipBS2FnQuLw5EqVu9LfOAyW2QLVZwuyicZ3TUGkJN4c9asdcZVjcI3N3CZNbMqh2VR2IeTebg==",
+      "path": "ncuid/1.0.0",
+      "hashPath": "ncuid.1.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "PubSub/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nXGvMNDh11hiiL42dK2EbIOUfyPKZLjTnmZ8lABG2rkHqo74SZCuv1DTzQwXMXt533U+6i5Zaz4iHEeGBPWjpQ==",
+      "path": "pubsub/4.0.2",
+      "hashPath": "pubsub.4.0.2.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.8.116": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
+      "path": "sqlite-net-pcl/1.8.116",
+      "hashPath": "sqlite-net-pcl.1.8.116.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
+      "path": "sqlitepclraw.bundle_green/2.0.4",
+      "hashPath": "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
+      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
+      "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h/x34gS4wkGPY4Gk/Mloyi8s6wNYvLEP0h/FPSgbP64RG6y925gHVOhZ1LMMbtTjljQbIXI7QU/XsqSbmWCKIA==",
+      "path": "system.diagnostics.diagnosticsource/6.0.2-mauipre.1.22054.8",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reactive/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WhGkScPWxw2pp7UwRW8M1OvYZ3WUDPC2wJ0aiuaB4KRD3bt4wLkgHgYnOUu87WRhsurvv5LN0E63iWOEza2o8g==",
+      "path": "system.reactive/4.3.2",
+      "hashPath": "system.reactive.4.3.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xD4/PF6icn6aQJQy43rg7SIa/VJ7OFlt5eQ7ceVpwW4fMVXWZC3F5jW5NkEee8XEpIq1mjE/KAi8xfSPP+9Ig==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.2-mauipre.1.22054.8",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7UFDdgfSYnzMSk3irYYhBLLkJEfpENeRi2rPzWlEn4D6OIlTfg/FRXxhl8TdfGR2XvmKXYeIoIGiGn72SJhk1Q==",
+      "path": "system.text.encodings.web/6.0.2-mauipre.1.22054.8",
+      "hashPath": "system.text.encodings.web.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-22clqJXfIB0IYFR1fgRyxCOSerglHTFOxvIqnlL8KtcxfLB1uWTZu78G2yADwLU9syDIMOEUg0VJO4FUodqnDA==",
+      "path": "system.text.json/6.0.2-mauipre.1.22054.8",
+      "hashPath": "system.text.json.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "System.Threading.Channels/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gdOOXBhtt2UpTxYJm1DRmoqNfYg5ypvhzhVt0vxKhzxXFjS81r8yIOSFsJYLRa1Jc14GBAqCnjxJstO3zBN7gg==",
+      "path": "system.threading.channels/4.7.0",
+      "hashPath": "system.threading.channels.4.7.0.nupkg.sha512"
+    },
+    "Websocket.Client/4.4.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h0sS4zsnXrVkYyMYDaRc0k/oV54uXXBlN/HOHAK5d/RWleLTmWS6bxtt0l3D5Q2rgtfLinkHLdf4sOqdrxZ0NA==",
+      "path": "websocket.client/4.4.43",
+      "hashPath": "websocket.client.4.4.43.nupkg.sha512"
+    },
+    "DBRSS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MqttTestClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reactive.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

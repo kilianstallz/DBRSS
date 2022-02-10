@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HOQmbhKyPVVFe6SM1kcl/5mTb3dfoRC/fgzN7/M2dSScozZgsUWGTVM+JWcuoNIh6vvw6wHm9wZ76e97uihIew==",
+  "success": true,
+  "projectFilePath": "/Users/kilianstallinger/RiderProjects/DBRSS/MqttTestClient/MqttTestClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/kilianstallinger/.nuget/packages/mqttnet/4.0.0-preview4/mqttnet.4.0.0-preview4.nupkg.sha512"
+  ],
+  "logs": []
+}
